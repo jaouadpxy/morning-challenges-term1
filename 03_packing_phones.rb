@@ -8,7 +8,7 @@
 #    (rectangular prism) measures as follows: 
 #       width: 5cm
 #       length: 7.4cm 
-#       depth: 4cm 
+#       height: 4cm 
 #
 #    The Company need to know how many of the phones in
 #    the new packaging can fit into a box that measures:
@@ -20,3 +20,5 @@
 #    through all the commands you need to write. 
 #
 #    Keep it as simple as you can.
+
+
