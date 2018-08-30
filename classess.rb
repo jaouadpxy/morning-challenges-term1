@@ -75,4 +75,4 @@ puts "the cats name is :  #{animal2.name}, the color #{animal2.color} and the nu
 
 for value in enumerable do
     
-end
+end 
