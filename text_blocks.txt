@@ -1,0 +1,25 @@
+A
+BARK
+BOOK
+TREAT
+COMMON
+SQUAD
+CONFUSE
+BOUGHT
+
+# can_make_word("A")
+# # => true
+# can_make_word("BARK")
+# # => true
+# can_make_word("BOOK")
+# # => false
+# can_make_word("TREAT")
+# # => true
+# can_make_word("COMMON")
+# # => false
+# can_make_word("SQUAD")
+# # => true
+# can_make_word("CONFUSE")
+# # => true
+# can_make_word("BOUGHT")
+# # => false

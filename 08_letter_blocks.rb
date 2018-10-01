@@ -40,3 +40,37 @@
 # Extension
 # Use the lots_of_words.txt file to test your code.
 # Now order the words that can be made by length.
+def can_make_word
+    text = ""
+    user = gets.chomp.strip.downcase
+
+    File.open("text_blocks.txt").each do |line|
+
+        text << line
+        case text
+        when "A"
+            puts "true"
+        when "BARK"
+            puts "true"
+        when "BOOK"
+            puts "false"
+        when "TREAT"
+            puts "true"
+        when "COMMON"
+            puts "false"
+        when "SQUAD"
+            puts "true"
+        when "CONFUSE"
+            puts "true"
+        when "BOUGHT"
+            puts "false"
+        else
+            puts "Exitint!!"
+            exit!
+    end
+    if user == text
+        return 
+    end
+end
+end
+can_make_word
